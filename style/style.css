@@ -1,0 +1,100 @@
+:root {
+    --iris : #4D5AE5;
+    --ocean : #404BBF;
+    --navy-blue : #2E2F42;
+    --green : #31D0AA;
+    --slate : #434455;
+    --light_slate : #8E8F99;
+    --cornflower : #2E2F42;
+    --cloud : #F4F4FD;
+    --navy_blue_model : #2E2F4266;
+    --gray : #2E2F42B2;
+    --write : #FFFFFF;
+    --dairy : #FCFCFC;
+}
+
+body {
+    font-family: roboto;
+    color : var(--slate);
+}
+
+h1,h2,h3,h4 {
+    color : var(--navy-blue);
+}
+
+.header .logo {
+    color : var(--navy-blue);
+    font-weight: 700;
+    text-decoration: none;
+}
+.header .logo span {
+    color : var(--iris);
+}
+
+.header .header-navbar {
+    list-style-type: none;
+}
+
+.header .header-contact a{
+    text-decoration: none;
+    color : var(--slate);
+}
+
+.header .header-navbar li:hover,
+.header .header-navbar li:active {
+    color : var(--ocean);
+}
+
+.header .header-contact a:hover {
+    color : var(--ocean);
+}
+.main .section-first {
+    background-color: var(--navy-blue)
+}
+
+.main .section-first h1 {
+    color : var(--write);
+}
+
+.main .section-first button {
+    background-color: var(--iris);
+    color : var(--write);
+}
+
+.main .section-first button:hover {
+    background-color : var(--ocean);
+}
+
+.main .section-second .products{
+    list-style-type: none;
+}
+
+.main .our-team {
+    background-color: var(--cloud);
+}
+
+.main .our-team .team-members{
+    list-style-type: none;
+}
+
+.main .out-portfolio .portfolio {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer .logo {
+    color : var(--write);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer .logo span {
+    color : var(--iris);
+}
+
+.footer p {
+    color : var(--write);
+}
