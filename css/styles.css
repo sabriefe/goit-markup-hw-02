@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+:root {
+  --main-color: #000;
+  --base-font-size: 16px;
+  --base-font-weight: 400;
+  --iris : #4D5AE5;
+  --ocean :#404BBF;
+  --navyblue : #2E2F42;
+  --green : #31D0AA;
+  --slate : #434455;
+  --lightslate:#8E8F99;
+  --cornflower : #E7E9FC;
+  --cloud : #F4F4FD;
+  --navybluemodal :rgba(46, 47, 66, 0.4);
+  --gray : #2E2F42;
+  --dairy : #FCFCFC;
+  --letter-spacing : 0.02em;
+
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Lora', 'Tangerine', Arial, sans-serif;
+    font-size: var(--base-font-size);
+    font-weight: var(--base-font-weight);
+     color: var(--main-color);
+     letter-spacing: var(--letter-spacing);
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main .section1 button{
+  cursor: pointer;
+}
+h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.072;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing);
+  color: var(--navyblue);
+}
+h3 {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p{
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  line-height: 1.5;
+  color : var(--slate);
+}
+header .logo,
+header .logo span,
+footer .logo,
+footer .logo span{
+  font-family: 'Raleway','Lora','Tangerine', Arial, sans-serif;
+  letter-spacing: 0.03em;
+  font-size : 18px;
+  line-height: 1.17;
+  font-weight: 700;
+  color : var(--iris);
+}
+header .logo span{
+  color : var(--navyblue);
+}
+footer .logo span{
+  color : var(--cloud);
+}
+header .nav-bar {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+}
+header .nav-bar ul li a{
+  color : var(--navyblue);
+}
+header address a{
+  color : var(--slate);
+  font-weight: 400;
+  font-size: var(--base-font-size);
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+}
+header .nav-bar ul li a:hover{
+  color : var(--ocean);
+}
+header .nav-bar ul li:first-child a:hover,
+header .nav-bar ul li:first-child a:active{
+  color : var(--ocean);
+}
+header address a:hover{
+  color : var(--ocean);
+}
+main .section1 button {
+  color : white;
+  background-color: var(--iris);
+  font-size : var(--base-font-size);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+main .section1 button:hover {
+  background-color : var(--ocean);
+}
+main .section1{
+  background-color: var(--navyblue);
+  color : white;
+}
+main .section3 {
+  background-color: var(--cloud);
+}
+footer {
+  background-color: var(--navyblue);
+}
+footer p {
+  color : var(--cloud);
+}
